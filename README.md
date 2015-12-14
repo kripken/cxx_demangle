@@ -10,5 +10,5 @@ Load `demangle.js`, and then run something like
 
 ## Building
 
-emmake ./build.sh
+    emmake ./build.sh
 
