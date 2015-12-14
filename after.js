@@ -14,3 +14,8 @@
   };
 })();
 
+// The emscripten compiler exports the Module object; we just want
+// the demangle function
+if (typeof module === "object" && typeof module.exports === "object") {
+  module.exports = demangle;
+}
