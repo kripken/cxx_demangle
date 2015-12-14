@@ -4,7 +4,9 @@ A port of the libc++abi name demangler to JavaScript, using Emscripten.
 
 ## Usage
 
-    demangle("__ZN17demangled_name");
+Load `demangle.js`, and then run something like
+
+    demangle("__Znwj");
 
 ## Building
 

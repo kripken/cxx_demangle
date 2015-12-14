@@ -4,6 +4,7 @@ $CC -s 'EXPORTED_FUNCTIONS=["___cxa_demangle"]' -s MODULARIZE=1 -Oz -s NO_FILESY
 cp before.js demangle.js
 cat compiled.js >> demangle.js
 cat after.js >> demangle.js
+rm compiled.js
 echo
 echo "done."
 
