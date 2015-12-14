@@ -15,4 +15,10 @@ print(demangle('__Z5multiwahtjmxyz'));
 print(demangle('__Z1aA32_iPA5_c'));
 print(demangle('__ZN21FWakaGLXFleeflsMarfooC2EjjjPKvbjj'));
 print(demangle('__ZN5wakaw2Cm10RasterBaseINS_6watwat9PolocatorEE8merbine1INS4_2OREEEvPKjj'));
+var t = Date.now();
+for (var i = 0; i < 1000; i++) {
+  demangle('__ZN5wakaw2Cm10RasterBaseINS_6watwat9PolocatorEE8merbine1INS4_2OREEEvPKjj');
+}
+print('benchmark: ' + (Date.now() - t));
+print(demangle('__ZN5wakaw2Cm10RasterBaseINS_6watwat9PolocatorEE8merbine1INS4_2OREEEvPKjj'));
 
