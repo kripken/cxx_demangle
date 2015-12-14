@@ -1,0 +1,22 @@
+{
+  "name": "demangle",
+  "version": "1.0.0",
+  "description": "A port of the libc++abi name demangler to JavaScript, using Emscripten.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --ui bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kripken/cxx_demangle.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kripken/cxx_demangle/issues"
+  },
+  "homepage": "https://github.com/kripken/cxx_demangle#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
