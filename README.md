@@ -30,4 +30,4 @@ In a browser, including `demangle.js` in a script tag will set a `demangle` func
 
 The MIT License (MIT)
 
-Copyright (c) 2015 libcxxabi authors, emscripten authors
+Copyright (c) 2015 libcxxabi authors, emscripten authors, cxx_demangle authors
