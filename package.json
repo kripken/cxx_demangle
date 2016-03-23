@@ -1,6 +1,6 @@
 {
   "name": "demangle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A port of the libc++abi name demangler to JavaScript, using Emscripten.",
   "main": "./index.js",
   "scripts": {
